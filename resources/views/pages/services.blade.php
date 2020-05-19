@@ -33,31 +33,32 @@
 	</form>
 
 	<br><hr><hr>
-<h1>Tabel Hasil Perhitungan Jam Kerja</h1>
-<br>
-<table class="table table-hover">
-<thead>
-    <tr class="table-active">
-      <th scope="col" style="width: 10%;">Tanggal</th>
-      <th scope="col" style="width: 10%;">Jam Masuk</th>
-      <th scope="col" style="width: 10%;">Jam Pulang</th>
-      <th scope="col">Tugas Yang Dikerjakan</th>
-      <th scope="col">Kendala Saat Pengerjaan</th>
-      <th scope="col" style="width: 12%;">Total Jam Kerja</th>
-    </tr>
-</thead>
-<tbody  id="myTable">
-</tbody>    
-</table> 
+	
+	<h1>Tabel Hasil Perhitungan Jam Kerja</h1>
+	<br>
+	<table class="table table-hover">
+	<thead>
+	    <tr class="table-active">
+	      <th scope="col" style="width: 10%;">Tanggal</th>
+	      <th scope="col" style="width: 10%;">Jam Masuk</th>
+	      <th scope="col" style="width: 10%;">Jam Pulang</th>
+	      <th scope="col">Tugas Yang Dikerjakan</th>
+	      <th scope="col">Kendala Saat Pengerjaan</th>
+	      <th scope="col" style="width: 12%;">Total Jam Kerja</th>
+	    </tr>
+	</thead>
+	<tbody  id="myTable">
+	</tbody>    
+	</table> 
 
-<br><br><br>
+	<br><br><br>
 
 <script>
 function timeStringToFloat(time) {
-  var hoursMinutes = time.split(/[.:]/);
-  var hours = parseInt(hoursMinutes[0], 10);
-  var minutes = hoursMinutes[1] ? parseInt(hoursMinutes[1], 10) : 0;
-  return hours + minutes / 60;
+    var hoursMinutes = time.split(/[.:]/);
+    var hours = parseInt(hoursMinutes[0], 10);
+    var minutes = hoursMinutes[1] ? parseInt(hoursMinutes[1], 10) : 0;
+	return hours + minutes / 60;
 }
 var jam;
 

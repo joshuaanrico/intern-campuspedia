@@ -21,6 +21,5 @@
         	@yield('content')
     	</nav>
 
-
     </body>
 </html>
