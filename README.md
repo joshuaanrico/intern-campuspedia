@@ -77,3 +77,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Untuk Menjalankan Website 
+
+1. Download dan masukan file github kedalam folder htdocs
+2. Buka Command Line dan navigasikan kedalam root folder intern-campuspedia
+3. jalankan fungsi "php artisan serve" pada Command line
+4. Nyalakan xampp Mysql dan Apache
+5. Buka Browser dan masukan IP yang didapat pada Command Line
+6. Enjoy!
